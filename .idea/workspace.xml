@@ -12,7 +12,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/MotifFinder$Benchmark.coverage" NAME="Benchmark Coverage Results" MODIFIED="1429826401826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MotifFinder$Benchmark.coverage" NAME="Benchmark Coverage Results" MODIFIED="1429833763800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -29,9 +29,11 @@
       <file leaf-file-name="Benchmark.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Benchmark.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26726058" vertical-offset="0" max-vertical-offset="449">
-              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-              <folding />
+            <state vertical-scroll-proportion="0.46547884" vertical-offset="106" max-vertical-offset="615">
+              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+              <folding>
+                <element signature="e#40#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -345,11 +347,21 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/1437855905/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33184856" vertical-offset="15946" max-vertical-offset="87555">
+          <caret line="1073" column="8" selection-start-line="1073" selection-start-column="8" selection-end-line="1073" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Benchmark.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26726058" vertical-offset="0" max-vertical-offset="449">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-          <folding />
+        <state vertical-scroll-proportion="0.46547884" vertical-offset="106" max-vertical-offset="615">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="e#40#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
