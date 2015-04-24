@@ -11,17 +11,30 @@ def generate_sequences(SL,SC):
         sequence_list.append(random_sequence)
     return sequence_list
 
-def generate_DNA_String(ML,NM):
-    DNA_String = ""
+def generate_motif(ML,NM):
+    motif = ""
     for i in range(0,ML):
-            DNA_String += random.choice(nucleotides)
+            motif += random.choice(nucleotides)
     global variable
     if(ML-NM>0):
         variable = random.randint(0, ML-NM)
     else:
         variable = random.randint(NM,ML)
+    return motif
 
-    return DNA_String
+def generate_binding_sites(motif,NM,ML):
+    binding_sites = []
+
+    for i in range(0,SC):
+        binding_site=""
+        for j in range(0,ML):
+            if i in range(variable,variable+NM):
+                binding_site + random.choice(nucleotides)
+            else:
+                binding_site + motif[i]
+
+        binding_sites.append(binding_site)
+    return binding_sites
 
 ML = int(input("Please enter a positive integer as the motif length\n"))
 NM = int(input("Please enter a non-negative integer as the number of variable positions\n"))
@@ -31,6 +44,9 @@ SC = int(input("Please enter a positive integer as the sequence count\n"))
 
 nucleotides = ['A','G','C','T']
 sequence_list = generate_sequences(SL,SC)
-DNA_String = generate_DNA_String(ML,NM)
-print(DNA_String)
+motif = generate_motif(ML,NM)
+binding_sites = generate_binding_sites(motif,NM,ML)
+print(motif)
 print(variable)
+print(binding_sites)
+
