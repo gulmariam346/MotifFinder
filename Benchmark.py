@@ -2,6 +2,7 @@ __author__ = 'Arpit'
 variable = -999999
 import random
 import math
+
 def generate_sequences(SL,SC):
     sequence_list = []
     for i in range(0,SL):
@@ -42,6 +43,16 @@ SL = int(input("Please enter a positive integer as the sequence length\n"))
 SC = int(input("Please enter a positive integer as the sequence count\n"))
 
 
+#5
+'''5)	“Plant”	one sampled	site	at	a	random	location	in	each	random	sequence
+generated	in	step	2.	“Planting”	a	site	means	overwriting	the	substring	at	that
+location	with	the	site.'''
+def planting():
+    for sequence in sequence_list:
+        overwrite = random.choice(sequence)
+        overwrite = sampled_site
+
+sampled_site=0
 nucleotides = ['A','G','C','T']
 sequence_list = generate_sequences(SL,SC)
 motif = generate_motif(ML,NM)
